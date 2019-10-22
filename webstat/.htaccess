@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/ebec.best-kyiv.org/webstat"
+AuthUserFile /var/www/best-kyivo/data/etc/12990022.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>
