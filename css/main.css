@@ -380,7 +380,7 @@ header p{
 	margin-right: 15%;
 }
 hr{
-	height: 0.05vw
+	height: 0.05vw;
 	color: #e6e6e6;
 	width: 100%;
 }
@@ -563,6 +563,11 @@ schedule{
 	font-size: 1.55vw;
 	color: #5a5757;
 }
+.photo a{
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 1.55vw;
+	color: #5a5757;
+}
 
 .justify{
 	justify-content: space-between;
@@ -575,7 +580,7 @@ schedule{
 	margin: 0 10%;
 }
 .up_marg{
-	margin-top: 13%;
+	margin-top: 40px;
 }
 .photo img{
 	width: 16.5vw;
@@ -614,11 +619,12 @@ schedule{
 	width: 46%;
 }
 .info img{
+	align-self: center;
 	width: 47%;
 	height: 28vw;
 }
 .size{
-	margin-bottom: 8.5%;
+	margin-bottom: 40px;
 }
 
 /*//////////////////////// FOOTER BLOCK ////////////////////////
