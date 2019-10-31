@@ -22,6 +22,7 @@ h1{
 	line-height: 1.5;
 	margin: 0;
 }
+
 p{
 	font-family: 'Roboto-Light',Arial,sans-serif;
     font-weight: normal;
@@ -271,6 +272,16 @@ header p{
 	padding-bottom: 7.5%;
 	width: 63%;
 }
+.standart-jury{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	padding-top: 7.5%;
+	padding-bottom: 7.5%;
+	max-width: 80%;
+	width: 100%;
+	justify-content: space-between;
+}
 
 .standart h1{
 	text-align: center;
@@ -278,6 +289,16 @@ header p{
 	color: #333;
     margin-bottom: 4.5vw;
     font-weight: normal;
+}
+
+.standart h3{
+	text-align: center;
+	font-size: 2.2vw;
+	color: #333;
+    margin-bottom: 4.5vw;
+	font-family: 'Roboto-Regular',Arial,sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
 }
 .standart p{
 	color: #333;
@@ -287,6 +308,12 @@ header p{
 .standart .condition img{
 	width: 7vw;
 	height: 6.5vw;
+}
+.jury.photo p, .jury.photo h1, .jury.photo a {
+	color: #c8c6c6;
+}
+.eleven .photo a{
+	font-size: 1.2vw;
 }
 .condition{
 	display: flex;
@@ -430,6 +457,10 @@ schedule{
 .partners img{
 	transition: 0.2s ease-in;
 }
+
+.partners a{
+	margin: 0 4.5vw;
+}
 .partners img:hover{
     transform: scale(1.1);
 }
@@ -450,8 +481,8 @@ schedule{
 	height: 8vw;
 }
 .energ{
-	width: 22vw;
-	height: 12.1vw;
+	width: 18vw;
+	height: 8.1vw;
 }
 .genesis{
 	width: 12.6vw;
@@ -463,11 +494,11 @@ schedule{
 }
 .partners{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 }
 .bottom{
-	margin-bottom: 4.5vw;
+	margin-bottom: 4vw;
 }
 
 /*//////////////////////// TEN BLOCK ////////////////////////
@@ -658,4 +689,7 @@ schedule{
 }
 .telegram{
 	margin: 0 4%;
+}
+.item{
+	width: 25%;
 }
