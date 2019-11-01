@@ -303,7 +303,7 @@ header p {
     flex-direction: column;
     padding-top: 7.5%;
     padding-bottom: 7.5%;
-    max-width: 80%;
+    max-width: 90%;
     width: 100%;
     justify-content: space-between;
 }
@@ -342,6 +342,10 @@ header p {
 }*/
 
 .eleven .photo a {
+    font-size: 1.2vw;
+}
+
+.jury.photo a {
     font-size: 1.2vw;
 }
 
@@ -525,6 +529,11 @@ schedule {
 .melex {
     width: 20vw;
     height: 7.4vw;
+}
+
+.ring {
+    width: 22vw;
+    height: 9.4vw;
 }
 
 .pepsico {
@@ -786,6 +795,10 @@ schedule {
 
 .item {
     width: 25%;
+}
+.jury-item {
+    width: 25%;
+    padding: 0 2vw;
 }
 .kpi{
     width: 10vw;
