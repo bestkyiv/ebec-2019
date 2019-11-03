@@ -53,7 +53,7 @@ header {
     position: relative;
 }
 
-.language {
+/* .language {
     position: absolute;
     right: 0;
     top: -3vw;
@@ -62,7 +62,7 @@ header {
 
 .language:hover {
     text-decoration: underline;
-}
+} */
 
 header h1 {
     color: #fdec00;
@@ -759,24 +759,28 @@ schedule {
 
 .foot {
     background-color: #1f1f1f;
-    padding: 2% 0;
-}
-
-.foot p {
-    color: #f5f5f5;
-    font-size: 1.7vw;
-    margin-bottom: 1.5%;
-    text-align: center;
+		padding: 2% 0;
+		display:  flex;
+		justify-content: center;
+		position: relative;
 }
 
 .links {
     display: flex;
-    justify-content: center;
+		justify-content: center;
 }
 
 .links a {
-    height: 3.5%;
-    width: 3.5%;
+    height: 4vw;
+    width: 4vw;
+}
+.language {
+	position: absolute;
+	text-decoration: none;
+	color: yellow;
+	right: 5vw;
+	line-height: 4vw;
+	font-size: 1.2vw;
 }
 
 .icon {
