@@ -804,6 +804,9 @@ schedule {
     width: 25%;
     padding: 0 2vw;
 }
+.jury-bottom{
+    justify-content: center;
+}
 .kpi{
     width: 10vw;
     height: 10vw;
