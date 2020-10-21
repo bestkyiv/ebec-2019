@@ -26,188 +26,187 @@
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light h1-nav fixed-top">
-    <a class="navbar-brand" href="/"><img class="best-navbar-logo"
+    <a class="navbar-left" href="#header"><img class="best-navbar-logo"
                                           src="img/ebec_logo.png"
                                           alt="ebec"/></a>
     <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
         <ul class="navbar-nav ml-auto flex-nowrap">
             <li class="nav-item active">
-                <a class="nav-link m-2 menu-item" href="#details">деталі</a>
+                <a class="nav-link m-2 menu-item" href="#details">details</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link m-2 menu-item" href="#terms">умови участі</a>
+                <a class="nav-link m-2 menu-item" href="#terms">terms</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link m-2 menu-item" href="#schedule">розклад</a>
+                <a class="nav-link m-2 menu-item" href="#schedule">schedule</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link m-2 menu-item" href="#about">про нас</a>
+                <a class="nav-link m-2 menu-item" href="#about">about us</a>
             </li>
         </ul>
     </div>
 </nav>
 
 <!--first screen-->
-<header>
-    <div class="container-fluid">
+<header class="container-fluid" id="header">
+
         <div class="first">
             <img class="people absolute" src="img/gear-people.png" alt="People">
 
             <div class="row justify-content-end">
-                <img class="col-xs-9 ebec-writing pull-right" src="img/EBEC.png" alt="ebec">
+                <img class="ebec-writing" src="img/EBEC.png" alt="ebec">
+            </div>
+
+        </div>
+</header>
+
+<!--About ebec-->
+<div id="details">
+
+    <div class="container-fluid second ">
+        <div class="position-relative about-and-descr">
+            <div class="position-absolute about-comp">
+                    <h1>About competition</h1>
+            </div>
+            <div class="position-absolute ebec-descr">
+                    <p>
+                        EBEC (European BEST Engineering Сompetition) is an engineering competition which gathers students from
+                        all across Europe every year.
+                        The project's main goal is to provide students with the opportunity to improve their skills and
+                        knowledge, display creativity, and learn how to work within a team.
+                    </p>
+            </div>
+        </div>
+
+            <div class="col-5 offset-7 date-of-event rubik-mono">
+                <h1 class="date-writing">DATE OF THE EVENT</h1>
+                <h1 class="days-writing">23-30/11/2020</h1>
             </div>
 
 
+        <div class="two-categories-box">
+            <p class="two-categories rubik-mono">THE CONTEST HAS TWO CATEGORIES</p>
+        </div>
 
-<!--            <div class="down">-->
-<!--                <img class="graffic" src="img/grafic.png" alt="Graffic">-->
+    </div>
+</div>
 
-<!--                <div class='img_circ'>-->
-<!--                    <img src="img/settings.png" alt="Settings" class="settings">-->
-<!--                    <img src="img/circles.png" alt="Circles" class='circles last_circ'>-->
-<!--                </div>-->
-<!--            </div>-->
+<!--team and case-->
+<section class="thirth">
+
+    <div class="flipper">
+        <div class="card-flipper grey-flipper">
+
+            <div class="front-flipper side-flipper striped-flipper">
+                <div class="team-box ">
+                    <h1 class="log rubik-mono">Team Design</h1>
+                </div>
+            </div>
+
+            <div class="back-flipper-team side-flipper">
+                <div class="inf">
+                    <p class="back-txt">
+                        The teams must resolve a practical case while having access to a limited amount of resources.
+                        The result is expected to be a device, which completes the necessary tasks.
+                    </p>
+                    <p>
+                        This category's assignment covers general engineering fields: Mechanics, Electronics, Radio
+                        engineering, Automation
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
-</header>
 
-<!--&lt;!&ndash;About ebec&ndash;&gt;-->
-<!--<section id="details">-->
+    <div class="flipper">
+        <div class="card-flipper yel-flipper">
 
-<!--    <div class="container second">-->
-<!--        <div class="txt">-->
-<!--            <h1>About competition</h1>-->
-<!--            <p>-->
-<!--                EBEC (European BEST Engineering Сompetition) is an engineering competition which gathers students from-->
-<!--                all across Europe every year.-->
-<!--                The project's main goal is to provide students with the opportunity to improve their skills and-->
-<!--                knowledge, display creativity, and learn how to work within a team.-->
-<!--            </p>-->
+            <div class="front-flipper side-flipper">
+                <div class="case-box">
+                    <h1 class="log rubik-mono">Case Study</h1>
+                </div>
+            </div>
 
-<!--            <p class="up_marg"><b>The contest has two categories:</b></p>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+            <div class="back-flipper-case side-flipper">
+                <div class="inf">
+                    <p class="back-txt">
+                        The teams must resolve an analytical case. The result is expected to be a strategy, which
+                        provides effective and optimal solutions to the presented problems.
+                    </p>
+                    <p>
+                        This category's assignment consists of an analysis and examination of a given technical problem.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<!--&lt;!&ndash;team and case&ndash;&gt;-->
-<!--<section class="thirth">-->
+</section>
 
-<!--    <div class="flipper">-->
-<!--        <div class="card grey">-->
+<!--terms of participation-->
+<div id="terms">
+    <div>
+        <div class="standart">
+            <h1 class="rubik-mono">TERMS OF PARTICIPATION</h1>
+            <div class="condition">
+                <img src="img/icon11 money.png" alt="Money">
+                <div class="cond_txt">
+                    <p><b>Without payment</b></p>
+                    <p>Participation is completely free</p>
+                </div>
+            </div>
+            <div class="condition">
+                <img src="img/icon2 kpi.png" alt="KPI">
+                <div class="cond_txt">
+                    <p><b>Be a student of KPI</b></p>
+                    <p>Any faculty 1 - 6 course</p>
+                </div>
+            </div>
+            <div class="condition">
+                <img src="img/icon3 category.png" alt="Category">
+                <div class="cond_txt">
+                    <p><b>Choose a category</b></p>
+                    <p>Only one - Team Design or Case Study</p>
+                </div>
+            </div>
+            <div class="condition">
+                <img src="img/icon 1.png" alt="Sign up">
+                <div class="cond_txt">
+                    <p><b>Register</b></p>
+                    <p>As one team or individually</p>
+                </div>
+            </div>
+            <div class="condition">
+                <img src="img/icon2 test.png" alt="Test">
+                <div class="cond_txt">
+                    <p><b>Pass the selection stage - complete the test</b></p>
+                    <p>Team rating is formed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<!--            <div class="front side">-->
-<!--                <h1 class="log">Team Design</h1>-->
-<!--                <div class="corner corner-y"></div>-->
-<!--                <div class="corner corner-y"></div>-->
-<!--                <div class="corner corner-y"></div>-->
-<!--                <div class="corner corner-y"></div>-->
-<!--            </div>-->
-
-<!--            <div class="back side">-->
-<!--                <div class="inf">-->
-<!--                    <p class="back-txt">-->
-<!--                        The teams must resolve a practical case while having access to a limited amount of resources.-->
-<!--                        The result is expected to be a device, which completes the necessary tasks.-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        This category's assignment covers general engineering fields: Mechanics, Electronics, Radio-->
-<!--                        engineering, Automation-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
-<!--    <div class="flipper">-->
-<!--        <div class="card yel">-->
-
-<!--            <div class="front side">-->
-<!--                <h1 class="log">Case Study</h1>-->
-<!--                <div class="corner corner-g"></div>-->
-<!--                <div class="corner corner-g"></div>-->
-<!--                <div class="corner corner-g"></div>-->
-<!--                <div class="corner corner-g"></div>-->
-<!--            </div>-->
-
-<!--            <div class="back side">-->
-<!--                <div class="inf">-->
-<!--                    <p class="back-txt">-->
-<!--                        The teams must resolve an analytical case. The result is expected to be a strategy, which-->
-<!--                        provides effective and optimal solutions to the presented problems.-->
-<!--                    </p>-->
-<!--                    <p>-->
-<!--                        This category's assignment consists of an analysis and examination of a given technical problem.-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
-<!--</section>-->
-
-<!--&lt;!&ndash;terms of participation&ndash;&gt;-->
-<!--<section id="terms">-->
-<!--    <div class="container">-->
-<!--        <div class="standart">-->
-<!--            <h1>Terms of participation</h1>-->
-<!--            <div class="condition">-->
-<!--                <img src="img/icon11 money.png" alt="Money">-->
-<!--                <div class="cond_txt">-->
-<!--                    <h1>Without payment</h1>-->
-<!--                    <p>Participation is completely free</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="condition">-->
-<!--                <img src="img/icon2 kpi.png" alt="KPI">-->
-<!--                <div class="cond_txt">-->
-<!--                    <h1>Be a student of KPI</h1>-->
-<!--                    <p>Any faculty 1 - 6 course</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="condition">-->
-<!--                <img src="img/icon3 category.png" alt="Category">-->
-<!--                <div class="cond_txt">-->
-<!--                    <h1>Choose a category</h1>-->
-<!--                    <p>Only one - Team Design or Case Study</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="condition">-->
-<!--                <img src="img/icon 1.png" alt="Sign up">-->
-<!--                <div class="cond_txt">-->
-<!--                    <h1>Register</h1>-->
-<!--                    <p>As one team or individually</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="condition">-->
-<!--                <img src="img/icon2 test.png" alt="Test">-->
-<!--                <div class="cond_txt">-->
-<!--                    <h1>Pass the selection stage - complete the test</h1>-->
-<!--                    <p>Team rating is formed</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <button class="button" disabled>Registration is closed</button>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-<!--&lt;!&ndash;career&ndash;&gt;-->
-<!--<section>-->
-<!--    <div class="color">-->
-<!--        <div class="container">-->
-<!--            <div class="standart">-->
-<!--                <h1>Career Day</h1>-->
-<!--                <p>-->
-<!--                    Career Day is organized within the framework of this year's competitions, where Ukraine's leading-->
-<!--                    companies will be participating.-->
-<!--                    Companies have the opportunity to present their internship programs and job opportunities to young-->
-<!--                    university professionals.-->
-<!--                    Communication between students and companies takes place in the form of lectures, training or-->
-<!--                    workshops.-->
-<!--                </p>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+<!--career-->
+<section>
+    <div class="color">
+        <div class="position-relative career-and-descr">
+            <div class="position-absolute career-header">
+                <h1>Career Day</h1>
+            </div>
+            <div class="position-absolute career-descr">
+                <p>
+                    Career Day is organized within the framework of this year's competitions, where Ukraine's leading
+                    companies will be participating.
+                    Companies have the opportunity to present their internship programs and job opportunities to young
+                    university professionals.
+                    Communication between students and companies takes place in the form of lectures, training or
+                    workshops.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--&lt;!&ndash;gallery&ndash;&gt;-->
 <!--<section>-->
