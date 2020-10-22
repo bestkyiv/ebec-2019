@@ -49,6 +49,7 @@ p {
     font-size: 2.5vw;
     line-height: 3vw;
     margin: 0;
+
 }
 
 /*///////////////////////// NAVBAR //////////////////////////
@@ -216,6 +217,7 @@ p {
     margin-top: 9vw;
     margin-bottom: 3vw;
     align-items: center;
+    color: #000000;
 }
 
 .two-categories{
@@ -258,8 +260,8 @@ p {
 
 .grey-flipper {
     background-size: auto auto;
-    background: #000000 url('../img/poloski.png');
-    background-size: 49.5vw 45vw;
+    background: #000000 url('../img/poloski-flipper.png');
+    background-size: 50vw 45.5vw;
     color: #ffffff;
     margin-right: 1vw;
 }
@@ -300,7 +302,7 @@ p {
 .log {
     border-top: 5vw;
     font-size: 2.5vw;
-    margin-top: 20vw;
+    margin-top: 16.25vw;
     line-height: 12.5vw;
 }
 
@@ -345,9 +347,10 @@ p {
     margin-top: 16.25vw;
     margin-left: 8.5vw;
     text-align: center;
+    color: #FFFFFF;
 }
 
-/*//////////////////////// TERMS OF PARTICIPATION - FOURTH BLOCK ////////////////////////
+/*//////////////////////// TERMS OF PARTICIPATION  - FOURTH BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
 
 .standart {
@@ -360,28 +363,15 @@ p {
 }
 
 .standart h1 {
+    text-align: center;
+    margin-bottom: 4.5vw;
+    font-weight: normal;
     font-size: 1.8vw;
     line-height: 2.2vw;
 }
 
-.standart-jury {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    padding-top: 7.5%;
-    padding-bottom: 7.5%;
-    max-width: 90%;
-    width: 100%;
-    justify-content: space-between;
-}
 
-.standart h1 {
-    text-align: center;
-    font-size: 2.9vw;
-    color: #333;
-    margin-bottom: 4.5vw;
-    font-weight: normal;
-}
+
 
 .standart h3 {
     text-align: center;
@@ -417,14 +407,16 @@ p {
 }
 
 .condition {
+    height: 7.3vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 3vw;
+    margin-bottom: 2vw;
 }
 
 .condition h1 {
     font-size: 1.9vw;
+    line-height: 2.2vw;
     margin: 0;
 }
 
@@ -434,9 +426,20 @@ p {
     align-items: flex-start;
     justify-content: center;
     margin-left: 5.5%;
+    line-height: 1vw;
 }
 
-
+.terms-div {
+    display: inline-block;
+}
+.pink-poloski {
+    right: 0;
+    vertical-align: middle;
+    background: #FF94B6;
+    height: 45vw;
+    width: 15.78vw;
+    top: 16vw;
+}
 
 /*//////////////////////// CAREER DAY - FIFTH BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
@@ -486,7 +489,7 @@ p {
 //////////////////////////////////////////////////////////////*/
 
 .sixth {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
     padding: 7.5% 0;
     width: 100%;
 }
@@ -495,87 +498,127 @@ p {
     padding: 0;
 }
 
-/*//////////////////////// Schedule?? - SEVENTH BLOCK ////////////////////////
+.green-blocks {
+    left: 8.4vw;
+}
+
+.green-blocks img {
+    width: 15.78vw;
+    height: 2vw;
+}
+
+
+.how-it-was-last-year {
+    left: 0;
+    top: 8vw;
+
+}
+
+.how-it-was-last-year img {
+    width: 16.82vw;
+    height: 27.3vw;
+}
+
+.gallery {
+    position: absolute;
+    right: 5vw;
+    top: 8vw;
+    width: 70vw;
+    align-content: center;
+}
+
+.gallery .owl-carousel img{
+    width: 18vw !important;
+    height: 18vw !important;
+}
+
+/*//////////////////////// Schedule - SEVENTH BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
 
-.seven .standart h1 {
+.seven {
+    margin-top: 35vw;
+    margin-bottom: 5vw;
+}
+
+.seven .row img {
+    height: 8.1vw;
+    width: 36vw;
+}
+.seven .row p {
     margin-bottom: 0;
-}
-
-.data {
-    text-align: center;
-    margin-top: 5vw;
-    margin-bottom: 3vw;
-}
-
-.schedule_item {
-    display: flex;
-    flex-direction: row;
+    font-size: 1.875vw;
+    font-weight: 700;
     margin-top: 2vw;
-    margin-bottom: 2vw;
 }
 
-.schedule_item h1 {
-    font-size: 1.65vw;
-}
+/*//////////////////////// JURY - NINE BLOCK ////////////////////////
+//////////////////////////////////////////////////////////////*/
 
-.time {
-    margin-right: 15%;
-}
 
-hr {
-    height: 0.05vw;
-    color: #e6e6e6;
+.standart-jury {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
     width: 100%;
 }
 
-label {
-    margin-left: 46%;
-    margin-top: 3.5vw;
-    height: 2.4vw;
-    width: 2.4vw;
-    border: solid black;
-    border-width: 0 0.2vw 0.2vw 0;
-    display: inline-block;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transition: transform .3s;
+.jury-container .row h1 {
+    margin-top: 3vw;
 }
 
-label:hover {
-    cursor: pointer;
+.jury-container {
+    background-color: #00896B;
+    color: #FFFFFF;
+    height: 20vw;
 }
 
-input {
-    display: none;
+.jury-poloski{
+    height: 4.5vw;
+    width: 100vw;
+    margin-top: 14vw;
+    bottom: 0;
 }
-
-input:checked + label {
-    transform: rotate(-135deg);
-    -webkit-transform: rotate(-135deg);
+.jury-poloski img{
+    background: #00896B;
+    height: 4.5vw;
+    width: 100vw;
 }
-
-schedule {
-    display: none;
-}
-
 
 /*//////////////////////// PARTNERS - NINE BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
 
 .nine {
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+    margin-top: 10vw;
 }
 
-.nine .standart {
-    width: 86%;
-    padding-top: 5.5%;
-    padding-bottom: 12%;
+.nine .row {
+    margin-top: 5vw;
 }
 
-.nine .standart h1 {
-    color: #1f1f1f;
+.nine .row:last-child {
+    margin-bottom: 5vw;
 }
+
+.partners-black {
+    background: #000000;
+    padding-left: 8vw;
+    padding-top: 1.7vw;
+    padding-bottom: 1.7vw;
+    width: 32.86vw;
+    color: #FFFFFF;
+}
+
+.partners-white {
+    color: #000000;
+    padding-left: 8vw;
+    padding-top: 1.7vw;
+    padding-bottom: 1.7vw;
+    width: 32.86vw;
+}
+
 
 .partners img {
     transition: 0.2s ease-in;
@@ -730,76 +773,140 @@ schedule {
 /*//////////////////////// TEAM  - ELEVEN BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
 
-.eleven .standart {
-    width: 86%;
+
+.standart-11 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    width: 63%;
+}
+
+.standart-11 h1 {
+    text-align: center;
+    margin-bottom: 4.5vw;
+    font-weight: normal;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+}
+
+.eleven .standart-11 {
+    width: 100%;
 }
 
 .eleven {
-    background-color: #1f1f1f;
+    background-color: #FF94B6;
 }
 
+.our-team {
+    color: #FFFFFF;
+}
 .photo {
     display: flex;
-    text-align: center;
+    text-align: left;
 }
 
+.left-member {
+    margin-left: 8.4vw;
+}
+
+.right-member {
+    margin-right: 8.4vw;
+}
+
+.hide-member {
+    opacity: 0;
+}
 .photo h1 {
-    font-size: 1.75vw;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
     margin-bottom: 0;
-    color: #5a5757;
+    color: #FFFFFF;
+    font-family: 'Rubik', Rubik, sans-serif;
+    font-weight: 700;
+    text-align: left;
 }
 
-.photo p, .photo a, .photo h1 {
-    font-family: 'Roboto-Italic', Arial, sans-serif;
-    font-size: 1.55vw;
-    color: #c8c6c6;
+.photo p, .photo a {
+    font-family: 'Rubik', Rubik, sans-serif;
+    font-size: 1.25vw;
+    line-height: 1.46vw;
+    color: #FFFFFF;
+    margin-bottom: 0;
 }
-.standart.team h1{
+.standart-11 .team h1{
     color: #ffffff;
+    font-family: 'Rubik', Rubik, sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.standart-11 .our-team {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 4.5vw;
+    font-weight: normal;
+}
+
+
+.poloski-team {
+    width: 24.2vw !important;
+    height: 15.88vw !important;
+}
+
+.poloski-team-top-left{
+    top: 9.5vw;
+    left: 0;
+}
+
+.poloski-team-bottom-right {
+    right: 0;
+    bottom: 13.3vw;
 }
 
 .justify {
-    justify-content: space-between;
     margin-bottom: 4.5vw;
 }
 
-.cent {
-    justify-content: center;
-}
-
-.margin {
-    margin: 0 10%;
-}
-
-.up_marg {
-    margin-top: 40px;
-}
 
 .photo img {
-    width: 16.5vw;
-    height: 16.5vw;
-    border-radius: 50%
+    width: 15.8vw;
+    height: 15.8vw;
 }
 
 /*//////////////////////// ABOUT BEST - TWELWE BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
 
 .twelwe {
-    padding-top: 3.5%;
+    padding-top: 7%;
     padding-bottom: 10.5%;
     background-color: #ffffff;
 }
 
-.twelwe .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 86%;
+
+.best-logo {
+    width: 21.4vw;
+    height: 11.7vw;
+    margin-top: 7vw;
+    margin-left: 5.8vw;
 }
 
-.best {
-    width: 27%;
-    margin-bottom: 4vw;
+.best-text {
+    color: #FFFFFF;
+    background: #000000;
+}
+
+.best-text-inner {
+    width: 49.5vw;
+    height: 17.2vw;
+    vertical-align: middle;
+    margin: 4.17vw 8.3vw;
+    right: 0;
+    font-size: 1.875vw;
+    line-height: 2.24vw;
+    font-weight: 400;
+    padding-top: 4vw;
 }
 
 .twelwe p {
@@ -827,32 +934,234 @@ schedule {
     margin-bottom: 40px;
 }
 
+/*//////////////////////// VISION MISSION - TWELWE BLOCK ////////////////////////
+//////////////////////////////////////////////////////////////*/
+
+.vision{
+    height: 17.2vw;
+    width: 100vw;
+}
+
+.vertical-label-left {
+    background-color: #000000;
+    color: #FFFFFF;
+    left: 8.5vw;
+    top: 0;
+    z-index: 3;
+}
+
+.vertical-label-left h1{
+    font-family: RubikMonoOne, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875vw;
+    line-height: 2.3vw;
+    padding: 1.56vw 1.56vw 1.56vw 1.56vw;
+    width: 4.7vw;
+}
+
+.horizontal-info-left {
+    background-color: #00896B;
+    color: #FFFFFF;
+    left: 0;
+    top: 1.82vw;
+    width: 83.17vw;
+    height: 13.6vw;
+    z-index: 1;
+}
+
+.horizontal-info-left div{
+    width: 63vw;
+    height: 7.3vw;
+    margin-right: 3.5vw;
+    margin-top: 3.4vw;
+    margin-left: 16.7vw;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+}
+
+.horizontal-info-left div h1 {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    font-weight: 700;
+}
+
+.horizontal-info-left div p {
+    font-size: 1.875vw;
+    line-height: 2.2vw;
+}
+
+.vertical-label-right {
+    background-color: #000000;
+    color: #FFFFFF;
+    right: 8.5vw;
+    top: 0;
+    z-index: 3;
+}
+
+.vertical-label-right h1{
+    font-family: RubikMonoOne, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875vw;
+    line-height: 2.3vw;
+    padding: 1.56vw 1.56vw 1.56vw 1.56vw;
+    width: 4.7vw;
+}
+
+.horizontal-info-right {
+    background-color: #00896B;
+    color: #FFFFFF;
+    right: 0;
+    top: 1.82vw;
+    width: 83.17vw;
+    height: 13.6vw;
+    z-index: 1;
+}
+
+.horizontal-info-right div{
+    width: 60vw;
+    height: 7.3vw;
+    margin-left: 8.4vw;
+    margin-top: 3.4vw;
+    margin-right: 13.8vw;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+}
+
+.horizontal-info-right div h1 {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    font-weight: 700;
+}
+
+.horizontal-info-right div p {
+    font-size: 1.875vw;
+    line-height: 2.2vw;
+}
+
+
+.stats-3{
+    margin-top: 21vw;
+}
+
+.stats-3 img {
+    margin-right: 3vw;
+}
+
+.stats-3 .col-auto {
+    margin-right: 5vw;
+}
+
+.stats-3 .col-auto:first-child {
+    margin-right: 8vw;
+}
+
+.stats-3 .label{
+    font-size: 1.3vw;
+    line-height: 1.56vw;
+    margin-top: 1.5vw;
+}
+
+.stats p{
+    font-size: 1.875vw;
+    line-height: 2.3vw;
+    padding-top: 1.5vw;
+    color: #FFFFFF;
+    background: #00896B;
+    height: 5.2vw;
+    text-align: center;
+}
+
+.label-num {
+    width: 6.3vw;
+    color: #FFFFFF;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+}
+
+.globe{
+    width: 5.2vw;
+    height: 5.2vw;
+}
+
+.pin{
+    height: 5.2vw;
+    width: 3.55vw;
+}
+
+.members-num {
+    width: 11vw;
+    color: #FFFFFF;
+}
+
+.companies-students {
+    margin-bottom: 8vw;
+    margin-top: 5vw;
+}
+.companies-students div {
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+.we-bridge {
+    padding-top: 0.005vw;
+}
+
+
+.label-and {
+    background: #FF94B6;
+    text-align: center;
+    height: 4.5vw;
+    width: 5.2vw;
+    color: #000000;
+    padding-top: 1vw;
+}
+
+
+.label-stud-comp {
+    color: #000000;
+    font-size: 1.875vw;
+    line-height: 2.3vw;
+    text-align: center;
+}
+.stud-comp {
+    width: 12.5vw;
+    height: 15.7vw;
+}
+
+.comp {
+    margin-left: 1vw;
+
+}
 /*//////////////////////// FOOTER BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
 
 .foot {
-    background-color: #1f1f1f;
+    background-color: #000000;
 		padding: 2% 0;
 		display:  flex;
-		justify-content: center;
 		position: relative;
 }
 
 .links {
     display: flex;
-		justify-content: center;
+    margin-left: 7.4vw;
 }
 
 .links a {
-    height: 4vw;
-    width: 4vw;
+    height: 2vw;
+    width: 2vw;
+    margin-left: 2vw;
 }
 .language {
 	position: absolute;
 	text-decoration: none;
-	color: yellow;
+	color: #FFFFFF;
 	right: 5vw;
-	line-height: 4vw;
+	line-height: 2vw;
 	font-size: 1.2vw;
 }
 
@@ -867,7 +1176,6 @@ schedule {
 }
 
 .telegram {
-    margin: 0 4%;
 }
 
 .item {
