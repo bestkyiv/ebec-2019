@@ -46,8 +46,8 @@ p {
     font-family: RubikMonoOne, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 2.5vw;
-    line-height: 3vw;
+    font-size: 2vw;
+    line-height: 2.5vw;
     margin: 0;
 
 }
@@ -56,13 +56,13 @@ p {
 ////////////////////////////////////////////////////////////////*/
 .h1-nav {
     padding: 0px 0;
-    height: 5.7vw;
+    height: 4vw;
     background: #FFFFFF;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
     position: fixed;
 }
 .h1-nav .navbar-nav .nav-item > .nav-link {
-    line-height: 70px;
+    line-height: 20px;
 }
 .h1-nav .navbar-nav .nav-item {
     margin: 0 20px;
@@ -73,7 +73,7 @@ p {
     font-weight: 700;
     font-size: 1.25vw;
     line-height: 1.46vw;
-    padding: 4.5vw 0.5vw;
+    padding: 1vw 0.24vw;
     margin-left: 4.5vw;
     color: #000000;
 }
@@ -88,8 +88,8 @@ p {
 
 
 .best-navbar-logo{
-    width: 9.17vw;
-    height: 3.68vw;
+    width: 6.25vw;
+    height: 2.5vw;
     /*margin-top: 5px;*/
     /*margin-bottom: 20px;*/
     margin-left: 5vw;
@@ -129,17 +129,17 @@ p {
 
 .people {
     position: absolute;
-    width: 40vw;
-    height: 31.63vw;
+    width: 36vw;
+    height: 27.63vw;
     margin-left: 13.22vw;
-    margin-top: 12vw;
+    margin-top: 10vw;
 }
 
 .ebec-writing {
     position: absolute;
-    width: 32.65vw;
-    height: 44.27vw;
-    margin-top: 6vw;
+    width: 28.65vw;
+    height: 39.27vw;
+    margin-top: 4vw;
 }
 
 /*//////////////////////// ABOUT COMPETITION - SECOND BLOCK /////////////////////////
@@ -153,7 +153,7 @@ p {
 
 
 .about-and-descr{
-    height: 24.5vw;
+    height: 20vw;
     width: 100vw;
 }
 
@@ -170,8 +170,8 @@ p {
     font-family: RubikMonoOne, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 2.5vw;
-    line-height: 3vw;
+    font-size: 2vw;
+    line-height: 2.5vw;
     padding: 1.5vw 2.5vw 0.75vw 2.5vw;
 }
 
@@ -180,17 +180,17 @@ p {
     color: #FFFFFF;
     right: 0;
     width: 83vw;
-    height: 24vw;
+    height: 20vw;
     z-index: 1;
 }
 
 .ebec-descr p{
     width: 63vw;
-    height: 10vw;
+    height: 8vw;
     margin-right: 8.3vw;
-    margin-top: 10vw;
+    margin-top: 8vw;
     margin-left: 8.3vw;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     line-height: 2.2vw;
 }
 
@@ -212,18 +212,18 @@ p {
 
 .two-categories-box {
     width: 100vw;
-    height: 5.93vw;
+    height: 4.5vw;
     background-color: #FF94B6;
-    margin-top: 9vw;
-    margin-bottom: 3vw;
+    margin-top: 7vw;
+    margin-bottom: 2vw;
     align-items: center;
     color: #000000;
 }
 
 .two-categories{
-    margin-top: 2vw;
-    font-size: 2.5vw;
-    line-height: 3vw;
+    margin-top: 1.5vw;
+    font-size: 2vw;
+    line-height: 2vw;
     text-align: center;
 
 }
@@ -240,14 +240,14 @@ p {
 }
 
 .flipper {
-    perspective: 1600px;
+    perspective: 15000px;
 
 }
 
 .card-flipper {
     /* Styling */
-    width: 49.5vw;
-    height: 45vw;
+    width: 45vw;
+    height: 36vw;
 
     /* Card flipping effects */
     transform-style: preserve-3d;
@@ -255,20 +255,23 @@ p {
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
-    transition: 0.6s;
+    transition: 1s;
 }
 
 .grey-flipper {
     background-size: auto auto;
     background: #000000 url('../img/poloski-flipper.png');
-    background-size: 50vw 45.5vw;
+    background-size: 45.1vw 36.1vw;
     color: #ffffff;
-    margin-right: 1vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
 }
 
 .yel-flipper {
     background-color: #00896B;
     color: #ffffff;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
 }
 
 .side-flipper {
@@ -284,68 +287,78 @@ p {
 
 
 /* Flip the card on hover */
-.flipper:hover .card-flipper, .back-flipper-team , .back-flipper-case {
-    transform: rotateY(-180deg) translateZ(1px);
-    -ms-transform: rotateY(-180deg) translateZ(1px);
-    -webkit-transform: rotateY(-180deg) translateZ(1px);
-    -moz-transform: rotateY(-180deg) translateZ(1px);
-    -o-transform: rotateY(-180deg) translateZ(1px);
+.flipper:hover .grey-flipper, .back-flipper-team {
+    transform: rotateX(-180deg) translateZ(1px);
+    -ms-transform: rotateX(-180deg) translateZ(1px);
+    -webkit-transform: rotateX(-180deg) translateZ(1px);
+    -moz-transform: rotateX(-180deg) translateZ(1px);
+    -o-transform: rotateX(-180deg) translateZ(1px);
 }
+
+.flipper:hover .yel-flipper,  .back-flipper-case {
+    transform: rotateX(180deg) translateZ(1px);
+    -ms-transform: rotateX(180deg) translateZ(1px);
+    -webkit-transform: rotateX(180deg) translateZ(1px);
+    -moz-transform: rotateX(180deg) translateZ(1px);
+    -o-transform: rotateX(180deg) translateZ(1px);
+}
+
+
 
 /* Front styling */
 .front-flipper {
     /* Center the name + outline (almost) */
-    line-height: 40vw; /* Height - some (because visual center is a little higher than actual center) */
+    line-height: 36vw; /* Height - some (because visual center is a little higher than actual center) */
 }
 
 
 .log {
-    border-top: 5vw;
-    font-size: 2.5vw;
-    margin-top: 16.25vw;
-    line-height: 12.5vw;
+    border-top: 4vw;
+    font-size: 2vw;
+    margin-top: 13vw;
+    line-height: 10vw;
 }
 
 /* Back styling */
 .back-flipper-team {
     background: #00896B;
     color: #ffffff;
-    font-size: 1.98vw;
+    font-size: 1.5vw;
 }
 
 .back-flipper-case {
     background: #000000;
     color: #ffffff;
-    font-size: 1.98vw;
+    font-size: 1.5vw;
 }
 
 
 .back-txt {
-    margin-bottom: 3vw;
+    margin-bottom: 2.4vw;
 }
 
 .inf {
-    margin-top: 12vw;
-    margin-left: 5.5vw;
-    width: 37vw;
+    margin-top: 9.6vw;
+    margin-left: 4.5vw;
+    width: 33vw;
 }
 
 .team-box {
     background-color: #00896B;
-    width: 32.6vw;
-    height: 12.5vw;
-    margin-top: 16.25vw;
-    margin-left: 8.5vw;
+    width: 30vw;
+    height: 10vw;
+    margin-top: 13.25vw;
+    margin-left: 7vw;
     text-align: center;
 
 }
 
 .case-box {
     background-color: #000000;
-    width: 32.6vw;
-    height: 12.5vw;
-    margin-top: 16.25vw;
-    margin-left: 8.5vw;
+    width: 30vw;
+    height: 10vw;
+    margin-top: 13.25vw;
+    margin-left: 7vw;
     text-align: center;
     color: #FFFFFF;
 }
@@ -364,10 +377,8 @@ p {
 
 .standart h1 {
     text-align: center;
-    margin-bottom: 4.5vw;
+    margin-bottom: 3.6vw;
     font-weight: normal;
-    font-size: 1.8vw;
-    line-height: 2.2vw;
 }
 
 
@@ -375,23 +386,23 @@ p {
 
 .standart h3 {
     text-align: center;
-    font-size: 2.2vw;
+    font-size: 1.8vw;
     color: #333;
-    margin-bottom: 4.5vw;
+    margin-bottom: 3.6vw;
     font-family: 'Roboto-Regular', Arial, sans-serif;
     font-weight: normal;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .standart p {
     color: #333;
-    font-size: 1.65vw;
+    font-size: 1.5vw;
     font-weight: normal;
 }
 
 .standart .condition img {
-    width: 7vw;
-    height: 6.5vw;
+    width: 6.3vw;
+    height: 6vw;
 }
 
 /*.jury.photo p, .jury.photo h1, .jury.photo a {
@@ -399,24 +410,24 @@ p {
 }*/
 
 .eleven .photo a {
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 .jury.photo a {
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 .condition {
-    height: 7.3vw;
+    height: 6vw;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 2vw;
+    margin-bottom: 1.6vw;
 }
 
 .condition h1 {
-    font-size: 1.9vw;
-    line-height: 2.2vw;
+    font-size: 1.5vw;
+    line-height: 1.9vw;
     margin: 0;
 }
 
@@ -426,7 +437,7 @@ p {
     align-items: flex-start;
     justify-content: center;
     margin-left: 5.5%;
-    line-height: 1vw;
+    line-height: 0.8vw;
 }
 
 .terms-div {
@@ -436,16 +447,16 @@ p {
     right: 0;
     vertical-align: middle;
     background: #FF94B6;
-    height: 45vw;
-    width: 15.78vw;
-    top: 16vw;
+    height: 36vw;
+    width: 18vw;
+    top: 13vw;
 }
 
 /*//////////////////////// CAREER DAY - FIFTH BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
 
 .career-and-descr{
-    height: 23.17vw;
+    height: 20vw;
     width: 100vw;
 }
 
@@ -462,8 +473,8 @@ p {
     font-family: RubikMonoOne, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 2.5vw;
-    line-height: 3vw;
+    font-size: 2vw;
+    line-height: 2.5vw;
     padding: 1.5vw 9.8vw 0.75vw 9.8vw;
 }
 
@@ -472,16 +483,16 @@ p {
     color: #FFFFFF;
     bottom: 0;
     width: 100vw;
-    height: 21.6vw;
+    height: 18vw;
     z-index: 1;
 }
 
 .career-descr p{
     width: 66.3vw;
-    height: 11.1vw;
+    height: 10vw;
     margin: 6.25vw 16.8vw 4.17vw;
-    font-size: 1.8vw;
-    line-height: 2.2vw;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
 }
 
 
@@ -503,40 +514,40 @@ p {
 }
 
 .green-blocks img {
-    width: 15.78vw;
-    height: 2vw;
+    width: 14vw;
+    height: 1.8vw;
 }
 
 
 .how-it-was-last-year {
     left: 0;
-    top: 8vw;
+    top: 6vw;
 
 }
 
 .how-it-was-last-year img {
-    width: 16.82vw;
-    height: 27.3vw;
+    width: 14vw;
+    height: 23vw;
 }
 
 .gallery {
     position: absolute;
     right: 5vw;
-    top: 8vw;
+    top: 6vw;
     width: 70vw;
     align-content: center;
 }
 
 .gallery .owl-carousel img{
-    width: 18vw !important;
-    height: 18vw !important;
+    width: 16vw !important;
+    height: 16vw !important;
 }
 
 /*//////////////////////// Schedule - SEVENTH BLOCK ////////////////////////
 //////////////////////////////////////////////////////////////*/
 
 .seven {
-    margin-top: 35vw;
+    margin-top: 28vw;
     margin-bottom: 5vw;
 }
 
@@ -566,6 +577,8 @@ p {
 
 .jury-container .row h1 {
     margin-top: 3vw;
+    font-size: 2vw;
+    line-height: 2.5vw;
 }
 
 .jury-container {
@@ -591,32 +604,41 @@ p {
 
 .nine {
     background-color: #ffffff;
-    margin-top: 10vw;
+    margin-top: 8vw;
 }
 
 .nine .row {
-    margin-top: 5vw;
+    margin-top: 4vw;
 }
 
 .nine .row:last-child {
-    margin-bottom: 5vw;
+    margin-bottom: 4vw;
 }
 
+.nine .rubik-mono {
+    font-size: 1.5vw;
+    line-height: 1.8vw;
+}
+
+.nine .our-partners{
+    font-size: 2.5vw;
+    line-height: 3vw;
+}
 .partners-black {
     background: #000000;
-    padding-left: 8vw;
-    padding-top: 1.7vw;
-    padding-bottom: 1.7vw;
-    width: 32.86vw;
+    padding-left: 4vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    width: 20vw;
     color: #FFFFFF;
 }
 
 .partners-white {
     color: #000000;
-    padding-left: 8vw;
-    padding-top: 1.7vw;
-    padding-bottom: 1.7vw;
-    width: 32.86vw;
+    padding-left: 4vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    width: 20vw;
 }
 
 
@@ -808,19 +830,19 @@ p {
 }
 
 .left-member {
-    margin-left: 8.4vw;
+    margin-left: 10vw;
 }
 
 .right-member {
-    margin-right: 8.4vw;
+    margin-right: 20vw;
 }
 
 .hide-member {
     opacity: 0;
 }
 .photo h1 {
-    font-size: 1.25vw;
-    line-height: 1.46vw;
+    font-size: 1vw;
+    line-height: 1.2vw;
     margin-bottom: 0;
     color: #FFFFFF;
     font-family: 'Rubik', Rubik, sans-serif;
@@ -830,8 +852,8 @@ p {
 
 .photo p, .photo a {
     font-family: 'Rubik', Rubik, sans-serif;
-    font-size: 1.25vw;
-    line-height: 1.46vw;
+    font-size: 1vw;
+    line-height: 1.2vw;
     color: #FFFFFF;
     margin-bottom: 0;
 }
@@ -840,39 +862,41 @@ p {
     font-family: 'Rubik', Rubik, sans-serif;
     font-weight: 700;
     text-align: left;
+    font-size: 1.5vw;
+    line-height: 2vw;
 }
 
 .standart-11 .our-team {
     text-align: center;
     color: #ffffff;
-    margin-bottom: 4.5vw;
+    margin-bottom: 1vw;
     font-weight: normal;
 }
 
 
 .poloski-team {
     width: 24.2vw !important;
-    height: 15.88vw !important;
+    height: 14vw !important;
 }
 
 .poloski-team-top-left{
-    top: 9.5vw;
+    top: 6vw;
     left: 0;
 }
 
 .poloski-team-bottom-right {
     right: 0;
-    bottom: 13.3vw;
+    bottom: 10vw;
 }
 
 .justify {
-    margin-bottom: 4.5vw;
+    margin-bottom: 2vw;
 }
 
 
 .photo img {
-    width: 15.8vw;
-    height: 15.8vw;
+    width: 12vw;
+    height: 12vw;
 }
 
 /*//////////////////////// ABOUT BEST - TWELWE BLOCK ////////////////////////
@@ -888,7 +912,7 @@ p {
 .best-logo {
     width: 21.4vw;
     height: 11.7vw;
-    margin-top: 7vw;
+    margin-top: 5vw;
     margin-left: 5.8vw;
 }
 
@@ -899,18 +923,18 @@ p {
 
 .best-text-inner {
     width: 49.5vw;
-    height: 17.2vw;
+    height: 13vw;
     vertical-align: middle;
     margin: 4.17vw 8.3vw;
     right: 0;
-    font-size: 1.875vw;
-    line-height: 2.24vw;
+    font-size: 1.3vw;
+    line-height: 1.5vw;
     font-weight: 400;
-    padding-top: 4vw;
+    padding-top: 3vw;
 }
 
 .twelwe p {
-    font-size: 1.65vw;
+    font-size: 1.3vw;
 }
 
 .info {
@@ -938,7 +962,7 @@ p {
 //////////////////////////////////////////////////////////////*/
 
 .vision{
-    height: 17.2vw;
+    height: 14vw;
     width: 100vw;
 }
 
@@ -954,8 +978,8 @@ p {
     font-family: RubikMonoOne, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.875vw;
-    line-height: 2.3vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
     padding: 1.56vw 1.56vw 1.56vw 1.56vw;
     width: 4.7vw;
 }
@@ -966,29 +990,29 @@ p {
     left: 0;
     top: 1.82vw;
     width: 83.17vw;
-    height: 13.6vw;
+    height: 12vw;
     z-index: 1;
 }
 
 .horizontal-info-left div{
-    width: 63vw;
+    width: 50vw;
     height: 7.3vw;
     margin-right: 3.5vw;
-    margin-top: 3.4vw;
+    margin-top: 2.5vw;
     margin-left: 16.7vw;
     font-size: 1.8vw;
     line-height: 2.2vw;
 }
 
 .horizontal-info-left div h1 {
-    font-size: 2.5vw;
-    line-height: 3vw;
+    font-size: 2vw;
+    line-height: 2.5vw;
     font-weight: 700;
 }
 
 .horizontal-info-left div p {
-    font-size: 1.875vw;
-    line-height: 2.2vw;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
 }
 
 .vertical-label-right {
@@ -1003,8 +1027,8 @@ p {
     font-family: RubikMonoOne, sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.875vw;
-    line-height: 2.3vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
     padding: 1.56vw 1.56vw 1.56vw 1.56vw;
     width: 4.7vw;
 }
@@ -1015,34 +1039,34 @@ p {
     right: 0;
     top: 1.82vw;
     width: 83.17vw;
-    height: 13.6vw;
+    height: 12vw;
     z-index: 1;
 }
 
 .horizontal-info-right div{
-    width: 60vw;
+    width: 50vw;
     height: 7.3vw;
-    margin-left: 8.4vw;
-    margin-top: 3.4vw;
-    margin-right: 13.8vw;
+    margin-left: 14vw;
+    margin-top: 2.5vw;
+    margin-right: 7vw;
     font-size: 1.8vw;
     line-height: 2.2vw;
 }
 
 .horizontal-info-right div h1 {
-    font-size: 2.5vw;
-    line-height: 3vw;
+    font-size: 2vw;
+    line-height: 2.5vw;
     font-weight: 700;
 }
 
 .horizontal-info-right div p {
-    font-size: 1.875vw;
-    line-height: 2.2vw;
+    font-size: 1.5vw;
+    line-height: 1.8vw;
 }
 
 
 .stats-3{
-    margin-top: 21vw;
+    margin-top: 17vw;
 }
 
 .stats-3 img {
@@ -1058,18 +1082,18 @@ p {
 }
 
 .stats-3 .label{
-    font-size: 1.3vw;
-    line-height: 1.56vw;
+    font-size: 1.3vw !important;
+    line-height: 1.56vw !important;
     margin-top: 1.5vw;
 }
 
 .stats p{
-    font-size: 1.875vw;
-    line-height: 2.3vw;
+    font-size: 1.5vw !important;
+    line-height: 1.8vw !important;
     padding-top: 1.5vw;
     color: #FFFFFF;
     background: #00896B;
-    height: 5.2vw;
+    height: 4vw;
     text-align: center;
 }
 
@@ -1084,17 +1108,17 @@ p {
 }
 
 .globe{
-    width: 5.2vw;
-    height: 5.2vw;
+    width: 4vw;
+    height: 4vw;
 }
 
 .pin{
-    height: 5.2vw;
-    width: 3.55vw;
+    height: 4vw;
+    width: 3vw;
 }
 
 .members-num {
-    width: 11vw;
+    width: 8vw;
     color: #FFFFFF;
 }
 
@@ -1108,6 +1132,7 @@ p {
 }
 .we-bridge {
     padding-top: 0.005vw;
+
 }
 
 
@@ -1124,7 +1149,7 @@ p {
 .label-stud-comp {
     color: #000000;
     font-size: 1.875vw;
-    line-height: 2.3vw;
+    line-height: 3vw;
     text-align: center;
 }
 .stud-comp {
@@ -1141,9 +1166,10 @@ p {
 
 .foot {
     background-color: #000000;
-		padding: 2% 0;
+		padding: 1% 0;
 		display:  flex;
 		position: relative;
+
 }
 
 .links {
@@ -1152,17 +1178,18 @@ p {
 }
 
 .links a {
-    height: 2vw;
-    width: 2vw;
-    margin-left: 2vw;
+    height: 1vw;
+    width: 1vw;
+    margin-left: 1.5vw;
+    margin-bottom: 0.5vw;
 }
 .language {
 	position: absolute;
 	text-decoration: none;
 	color: #FFFFFF;
 	right: 5vw;
-	line-height: 2vw;
-	font-size: 1.2vw;
+	line-height: 1.2vw;
+	font-size: 0.8vw;
 }
 
 .icon {
