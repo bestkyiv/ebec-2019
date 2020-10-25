@@ -1,17 +1,4 @@
-@font-face {
-    font-family: Roboto-Regular;
-    src: url(../fonts/Roboto-Regular.ttf);
-}
 
-@font-face {
-    font-family: Roboto-Light;
-    src: url(../fonts/Roboto-Light.ttf);
-}
-
-@font-face {
-    font-family: Roboto-Italic;
-    src: url(../fonts/Roboto-Italic.ttf);
-}
 
 @font-face {
     font-family: Rubik;
@@ -537,8 +524,9 @@ p {
 //////////////////////////////////////////////////////////////*/
 
 .seven {
-    margin-top: 28vw;
+    margin-top: 8vw;
     margin-bottom: 5vw;
+    opacity: 0;
 }
 
 .seven .row img {
@@ -1080,7 +1068,7 @@ p {
 .stats p{
     font-size: 1.5vw !important;
     line-height: 1.8vw !important;
-    padding-top: 1.5vw;
+    padding-top: 1.3vw;
     color: #FFFFFF;
     background: #00896B;
     height: 4vw;
@@ -1088,7 +1076,7 @@ p {
 }
 
 .label-num {
-    width: 6.3vw;
+    width: 5vw;
     color: #FFFFFF;
 }
 
