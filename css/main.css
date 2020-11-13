@@ -29,6 +29,7 @@ p {
     line-height: 1;
 }
 
+
 .rubik-mono {
     font-family: RubikMonoOne, sans-serif;
     font-style: normal;
@@ -73,13 +74,17 @@ p {
 }
 
 
-
+.h1-nav .navbar-left {
+    margin-top: 0;
+    border-top: 0;
+}
 .best-navbar-logo{
     width: 6.25vw;
     height: 2.5vw;
-    /*margin-top: 5px;*/
+top: 1vw;
     /*margin-bottom: 20px;*/
     margin-left: 5vw;
+    position: fixed;
 }
 
 /*///////////////////////// INTRO - FIRST BLOCK //////////////////////////
@@ -160,6 +165,7 @@ p {
     font-size: 2vw;
     line-height: 2.5vw;
     padding: 1.5vw 2.5vw 0.75vw 2.5vw;
+    margin-bottom: 1vw;
 }
 
 .ebec-descr {
@@ -358,23 +364,12 @@ p {
     font-weight: normal;
 }
 
-
-
-
-.standart h3 {
-    text-align: center;
-    font-size: 1.8vw;
-    color: #333;
-    margin-bottom: 3.6vw;
-    font-family: 'Roboto-Regular', Arial, sans-serif;
-    font-weight: normal;
-    line-height: 1.4;
-}
-
 .standart p {
-    color: #333;
+    color: #000000;
     font-size: 1.5vw;
+    line-height: 1.7vw;
     font-weight: normal;
+    margin-bottom: 1vw;
 }
 
 .standart .condition img {
@@ -402,19 +397,13 @@ p {
     margin-bottom: 1.6vw;
 }
 
-.condition h1 {
-    font-size: 1.5vw;
-    line-height: 1.9vw;
-    margin: 0;
-}
-
 .cond_txt {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     margin-left: 5.5%;
-    line-height: 0.8vw;
+    /*line-height: 0.8vw;*/
 }
 
 .terms-div {
@@ -453,6 +442,7 @@ p {
     font-size: 2vw;
     line-height: 2.5vw;
     padding: 1.5vw 9.8vw 0.75vw 9.8vw;
+    margin-bottom: 1vw;
 }
 
 .career-descr {
@@ -524,9 +514,8 @@ p {
 //////////////////////////////////////////////////////////////*/
 
 .seven {
-    margin-top: 8vw;
+    margin-top: 28vw;
     margin-bottom: 5vw;
-    opacity: 0;
 }
 
 .seven .row img {
@@ -557,6 +546,7 @@ p {
     margin-top: 3vw;
     font-size: 2vw;
     line-height: 2.5vw;
+    margin-bottom: 1vw;
 }
 
 .jury-container {
@@ -960,6 +950,7 @@ p {
     line-height: 2vw;
     padding: 1.56vw 1.56vw 1.56vw 1.56vw;
     width: 4.7vw;
+    margin-bottom: 1vw;
 }
 
 .horizontal-info-left {
@@ -986,6 +977,7 @@ p {
     font-size: 2vw;
     line-height: 2.5vw;
     font-weight: 700;
+    margin-bottom: 1vw;
 }
 
 .horizontal-info-left div p {
@@ -1009,6 +1001,7 @@ p {
     line-height: 2vw;
     padding: 1.56vw 1.56vw 1.56vw 1.56vw;
     width: 4.7vw;
+    margin-bottom: 1vw;
 }
 
 .horizontal-info-right {
@@ -1035,6 +1028,7 @@ p {
     font-size: 2vw;
     line-height: 2.5vw;
     font-weight: 700;
+    margin-bottom: 1vw;
 }
 
 .horizontal-info-right div p {
@@ -1144,9 +1138,10 @@ p {
 
 .foot {
     background-color: #000000;
-		padding: 0.5% 0;
-		display:  flex;
-		position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	display:  flex;
+	position: relative;
 
 }
 
@@ -1159,15 +1154,18 @@ p {
     height: 1.5vw;
     width: 1.5vw;
     margin-left: 1.5vw;
-    margin-bottom: 0.5vw;
+    margin-bottom: 1vw;
+    bottom: 0;
 }
 .language {
 	position: absolute;
 	text-decoration: none;
 	color: #FFFFFF;
 	right: 5vw;
-	line-height: 1.7vw;
+	line-height: 1.5vw;
 	font-size: 1.3vw;
+    margin-bottom: 1.5vw;
+    bottom: 0;
 }
 
 .icon {
