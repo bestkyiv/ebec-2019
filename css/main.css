@@ -81,7 +81,7 @@ p {
 .best-navbar-logo{
     width: 6.25vw;
     height: 2.5vw;
-top: 1vw;
+top: 0.8vw;
     /*margin-bottom: 20px;*/
     margin-left: 5vw;
     position: fixed;
@@ -565,15 +565,15 @@ top: 1vw;
 
 .nine {
     background-color: #ffffff;
-    margin-top: 8vw;
+    margin-top: 6vw;
 }
 
 .nine .row {
-    margin-top: 4vw;
+    margin-top: 3vw;
 }
 
 .nine .row:nth-child(5) {
-    margin-top: 8vw;
+    margin-top: 6vw;
 }
 
 .nine .row:nth-child(2) {
@@ -585,13 +585,13 @@ top: 1vw;
 }
 
 .nine .rubik-mono {
-    font-size: 2.5vw;
-    line-height: 2.8vw;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
 }
 
 .nine .our-partners{
-    font-size: 2.5vw;
-    line-height: 3vw;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
 }
 .partners-black {
     background: #000000;
@@ -603,8 +603,8 @@ top: 1vw;
 }
 
 .partner-text{
-    margin-right: 3vw;
-    margin-top: 4vw;
+    margin-right: 1vw;
+    margin-top: 3vw;
 }
 
 
@@ -625,6 +625,11 @@ top: 1vw;
 
 .partners img:hover {
     transform: scale(1.1);
+}
+
+
+.partner-right {
+    margin-right: 3vw;
 }
 
 .huawei img{
@@ -655,6 +660,7 @@ top: 1vw;
 .lifecell img{
     width: 21.1vw;
     height: 6.8vw;
+    margin-left: 4vw;
 }
 
 .genesis img{
@@ -1068,7 +1074,6 @@ top: 1vw;
 
 .foot {
     background-color: #000000;
-    padding-top: 10px;
     padding-bottom: 10px;
 	display:  flex;
 	position: relative;
@@ -1084,8 +1089,8 @@ top: 1vw;
     height: 1.5vw;
     width: 1.5vw;
     margin-left: 1.5vw;
+    margin-top: 1vw;
     margin-bottom: 1vw;
-    bottom: 0;
 }
 .language {
 	position: absolute;
@@ -1096,11 +1101,17 @@ top: 1vw;
 	font-size: 1.3vw;
     margin-bottom: 1.5vw;
     bottom: 0;
+    opacity: 0.7;
+}
+
+.language:hover {
+    opacity: 1;
+    color: #FFFFFF;
 }
 
 .icon {
-    height: 100%;
-    width: 100%;
+    height: 1.5vw;
+    width: 1.5vw;
     opacity: 0.7;
 }
 
