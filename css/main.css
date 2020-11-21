@@ -572,13 +572,21 @@ top: 1vw;
     margin-top: 4vw;
 }
 
+.nine .row:nth-child(5) {
+    margin-top: 8vw;
+}
+
+.nine .row:nth-child(2) {
+    margin-top: 1vw;
+}
+
 .nine .row:last-child {
     margin-bottom: 4vw;
 }
 
 .nine .rubik-mono {
-    font-size: 1.5vw;
-    line-height: 1.8vw;
+    font-size: 2.5vw;
+    line-height: 2.8vw;
 }
 
 .nine .our-partners{
@@ -587,19 +595,26 @@ top: 1vw;
 }
 .partners-black {
     background: #000000;
-    padding-left: 4vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    width: 20vw;
+    padding-left: 13.75vw;
+    padding-top: 1.6vw;
+    padding-bottom: 1.6vw;
+    width: 31.25vw;
     color: #FFFFFF;
 }
 
+.partner-text{
+    margin-right: 3vw;
+    margin-top: 4vw;
+}
+
+
+
 .partners-white {
     color: #000000;
-    padding-left: 4vw;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    width: 20vw;
+    padding-left:  13.75vw;
+    padding-top: 1.6vw;
+    padding-bottom: 1.6vw;
+    width: 31.25vw;
 }
 
 
@@ -607,150 +622,70 @@ top: 1vw;
     transition: 0.2s ease-in;
 }
 
-.partners a {
-    margin: 0 4.5vw;
-}
 
 .partners img:hover {
     transform: scale(1.1);
 }
 
-.enext {
-    width: 18.5vw;
+.huawei img{
+    width: 20.8vw;
+    height: 4.7vw;
+}
+
+.globallogic img {
+    width: 25vw;
     height: 8vw;
 }
 
-.redbull {
-    width: 16vw;
-    height: 8vw;
+.melexis img {
+    width: 20.7vw;
+    height: 6.8vw;
 }
 
-.melex {
-    width: 20vw;
-    height: 7.4vw;
+.kpi  img{
+    width: 9.8vw;
+    height: 9.8vw;
 }
 
-.ring {
-    width: 22vw;
-    height: 9.4vw;
+.ui img{
+    width: 7.3vw;
+    height: 9.8vw;
 }
 
-.pepsico {
-    width: 23vw;
-    height: 8vw;
+.lifecell img{
+    width: 21.1vw;
+    height: 6.8vw;
 }
 
-.energ {
+.genesis img{
     width: 18vw;
-    height: 8.1vw;
+    height: 3.75vw;
 }
 
-.genesis {
-    width: 12.6vw;
-    height: 12.6vw;
+.techiia img{
+    width: 31.7vw;
+    height: 6.8vw;
 }
 
-.ajax {
-    width: 22vw;
-    height: 5.3vw;
+.luxoft img{
+    width: 13.5vw;
+    height: 6.8vw;
 }
 
-.partners {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.suputnik img{
+    width: 15vw;
+    height: 4.2vw;
+}
+
+.robo img{
+    width: 15.5vw;
+    height: 6.8vw;
 }
 
 .bottom {
     margin-bottom: 4vw;
 }
 
-/*//////////////////////// NOT USED??? - TEN BLOCK ////////////////////////
-//////////////////////////////////////////////////////////////*/
-
-.ten {
-    background-color: #fff;
-}
-
-.contacts {
-    display: flex;
-    justify-content: center;
-}
-
-.serg {
-    margin-right: 9%;
-}
-
-.contacts h1 {
-    margin-bottom: 0;
-    font-size: 1.4vw;
-    color: #f5f5f5;
-    text-align: left;
-}
-
-.contacts p {
-    font-size: 1.3vw;
-    color: #f5f5f5;
-}
-
-.space {
-    margin-bottom: 1vw
-}
-
-.up {
-    position: absolute;
-    left: 2vw;
-    top: 27vw;
-    z-index: -1;
-    transition: 0.5s ease-in-out;
-    animation: showone 0.5s ease-in-out;
-}
-
-.imag {
-    width: 26vw;
-    height: 36vw;
-    position: relative;
-}
-
-.serg {
-    background: url("../img/sergei.jpg") 100% 100% no-repeat;
-    background-size: cover;
-}
-
-.oleg {
-    background: url("../img/oleg.jpg") 100% 100% no-repeat;
-    background-size: cover;
-}
-
-
-.imag:hover {
-    box-shadow: 0 0 0 800px rgba(0, 0, 0, 0.3) inset;
-    cursor: pointer;
-}
-
-.imag:hover .up {
-    top: 23vw;
-    z-index: 2;
-    animation: show 0.5s ease-in-out;
-}
-
-@keyframes showone {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0.1;
-    }
-}
-
-@keyframes show {
-    from {
-        opacity: 0.1;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 
 /*//////////////////////// TEAM  - ELEVEN BLOCK ////////////////////////
@@ -783,6 +718,7 @@ top: 1vw;
 }
 
 .our-team {
+    padding-bottom: 3vw;
     color: #FFFFFF;
 }
 .photo {
@@ -804,7 +740,8 @@ top: 1vw;
 .photo h1 {
     font-size: 1vw;
     line-height: 1.2vw;
-    margin-bottom: 0;
+    margin-bottom: 0.3vw;
+    margin-top: 0.5vw;
     color: #FFFFFF;
     font-family: 'Rubik', Rubik, sans-serif;
     font-weight: 700;
@@ -841,13 +778,13 @@ top: 1vw;
 }
 
 .poloski-team-top-left{
-    top: 6vw;
+    top: 9vw;
     left: 0;
 }
 
 .poloski-team-bottom-right {
     right: 0;
-    bottom: 10vw;
+    bottom: 11vw;
 }
 
 .justify {
@@ -1183,10 +1120,4 @@ top: 1vw;
 }
 .jury-bottom{
     justify-content: center;
-}
-.kpi{
-    width: 10vw;
-    height: 10vw;
-    position: absolute;
-    right: 0;
 }
