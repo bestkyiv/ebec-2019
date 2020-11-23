@@ -674,18 +674,30 @@ top: 0.8vw;
 }
 
 .luxoft img{
-    width: 13.5vw;
-    height: 6.8vw;
+    width: 8.8vw;
+    height: 5vw;
+    margin-left: 3vw;
+    margin-right: 0;
 }
 
 .suputnik img{
-    width: 15vw;
-    height: 4.2vw;
+    width: 13.5vw;
+    height: 3.85vw;
 }
 
+.robo {
+    padding-right: 3vw;
+}
 .robo img{
-    width: 15.5vw;
-    height: 6.8vw;
+    width: 9vw;
+    height: 4.6vw;
+
+}
+
+.hotprint img{
+    width: 13vw;
+    height: 4.6vw;
+    margin-left: 1vw;
 }
 
 .bottom {
